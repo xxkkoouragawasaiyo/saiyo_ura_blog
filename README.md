@@ -1,0 +1,44 @@
+# 採用のウラ側（saiyo-ura.com）データ分析
+
+ブログ改善のためのデータ置き場と分析スクリプト。
+
+## ディレクトリ
+
+```
+data/gsc/raw/<取得日>/<期間>.zip        GSCエクスポートの元ファイル
+data/gsc/<取得日>/<期間>/*.csv          正規化済みデータ（英語カラム・数値）
+data/gsc/<取得日>/manifest.json         期間・合計値・行数
+reports/gsc/<取得日>/report.md          自動生成レポート
+reports/gsc/<取得日>/insights.md        所見と打ち手（手書き）
+reports/gsc/<取得日>/*.csv              施策候補リスト
+scripts/                               取込・分析スクリプト
+```
+
+期間キー: `last7d`（過去7日）/ `last28d`（過去28日）/ `last3m`（過去3か月）
+
+正規化CSVのカラム: `<次元>, clicks, impressions, ctr(0〜1), position`
+（次元: daily=`date` / queries=`query` / pages=`page` / countries=`country` / devices=`device`）
+
+## 更新手順
+
+1. Search Console > 検索パフォーマンス > 検索タイプ「ウェブ」で、期間を **過去7日・過去28日・過去3か月** の3通りに切り替えてそれぞれ「エクスポート > CSVをダウンロード」
+2. 取り込み（取得日フォルダはzipファイル名の日付から自動判定）
+   ```sh
+   python3 scripts/gsc_import.py ~/Downloads/saiyo-ura.com-Performance-on-Search-*.zip
+   ```
+3. 分析レポート生成（最新の取得日が対象。`--snapshot 2026-10-10` で指定も可）
+   ```sh
+   pip install -r requirements.txt
+   python3 scripts/gsc_analyze.py
+   ```
+4. `reports/gsc/<取得日>/report.md` を読み、`insights.md` に所見を書く
+
+## 出力CSV
+
+| ファイル | 内容 |
+|---|---|
+| `pages.csv` | 記事ごとの日次平均（3か月/28日/7日/以前）とテーマ |
+| `ctr_gap.csv` | 同順位の標準CTRに比べてCTRが低い記事（タイトル改善候補） |
+| `striking_queries.csv` | 4〜20位で表示の多いクエリ（あと一歩クエリ） |
+| `rising_queries.csv` | 直近28日で表示が伸びたクエリ |
+| `url_issues.csv` | インデックスされるべきでないURL（タグ・壊れたリンク等） |

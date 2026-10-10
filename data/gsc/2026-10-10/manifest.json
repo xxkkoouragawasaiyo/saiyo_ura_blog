@@ -1,0 +1,59 @@
+{
+  "last28d": {
+    "date_from": "2026-09-09",
+    "date_to": "2026-10-06",
+    "period": "last28d",
+    "period_label": "過去 28 日間",
+    "rows": {
+      "appearance": 0,
+      "countries": 96,
+      "daily": 28,
+      "devices": 3,
+      "pages": 414,
+      "queries": 1000
+    },
+    "search_type": "ウェブ",
+    "snapshot": "2026-10-10",
+    "source": "e44ffb1a-saiyo-ura.com-Performance-on-Search-2026-10-10_1.zip",
+    "total_clicks": 4386,
+    "total_impressions": 86715
+  },
+  "last3m": {
+    "date_from": "2026-07-07",
+    "date_to": "2026-10-06",
+    "period": "last3m",
+    "period_label": "過去 3 か月間",
+    "rows": {
+      "appearance": 0,
+      "countries": 141,
+      "daily": 92,
+      "devices": 3,
+      "pages": 496,
+      "queries": 1000
+    },
+    "search_type": "ウェブ",
+    "snapshot": "2026-10-10",
+    "source": "0d4f9443-saiyo-ura.com-Performance-on-Search-2026-10-10.zip",
+    "total_clicks": 10933,
+    "total_impressions": 227520
+  },
+  "last7d": {
+    "date_from": "2026-09-30",
+    "date_to": "2026-10-06",
+    "period": "last7d",
+    "period_label": "過去 7 日間",
+    "rows": {
+      "appearance": 0,
+      "countries": 52,
+      "daily": 7,
+      "devices": 3,
+      "pages": 366,
+      "queries": 1000
+    },
+    "search_type": "ウェブ",
+    "snapshot": "2026-10-10",
+    "source": "73d39342-saiyo-ura.com-Performance-on-Search-2026-10-10_2.zip",
+    "total_clicks": 1417,
+    "total_impressions": 27303
+  }
+}
