@@ -51,6 +51,8 @@ def classify_url(url: str) -> str:
         return "ページ送り"
     if path == "/":
         return "トップ"
+    if not path.endswith("/") or "]" in path:
+        return "不正な形式（末尾スラッシュ欠落等）"
     return "記事"
 
 

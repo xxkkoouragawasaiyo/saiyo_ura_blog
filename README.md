@@ -11,6 +11,8 @@ data/gsc/<取得日>/manifest.json         期間・合計値・行数
 reports/gsc/<取得日>/report.md          自動生成レポート
 reports/gsc/<取得日>/insights.md        所見と打ち手（手書き）
 reports/gsc/<取得日>/*.csv              施策候補リスト
+reports/strategy/                      記事別アクションプラン
+data/affiliate/<取得日>/                ASPレポート（A8.net / もしも / バリューコマース、UTF-8変換済み）
 scripts/                               取込・分析スクリプト
 ```
 
@@ -42,3 +44,11 @@ scripts/                               取込・分析スクリプト
 | `striking_queries.csv` | 4〜20位で表示の多いクエリ（あと一歩クエリ） |
 | `rising_queries.csv` | 直近28日で表示が伸びたクエリ |
 | `url_issues.csv` | インデックスされるべきでないURL（タグ・壊れたリンク等） |
+
+## ASPデータ
+
+各ASPの管理画面からダウンロードしたCSVは Shift_JIS のため、UTF-8 に変換して `data/affiliate/<取得日>/` に保存する。
+```sh
+iconv -f CP932 -t UTF-8 元ファイル.csv > data/affiliate/<取得日>/<asp>_<内容>.csv
+```
+氏名などの個人情報を含む列は、コミット前に削除すること。
