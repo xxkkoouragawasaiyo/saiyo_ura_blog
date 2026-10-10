@@ -1,0 +1,140 @@
+slug,theme,cluster,offer,query_pattern
+/openwork-tsukaikata/,口コミサイト活用,OpenWork,転職会議(VC),(オープンワーク|openwork|vorkers)(?!.*(形|グラフ|ダイヤ|何点|平均点|目安|ホワイト|ばれ|バレ|比較|転職会議|ブロック)).*(口コミ|見る|見れ|使い方|無料|有料|登録|学生|あてにならない|サクラ|低く出る|$)
+/openwork-graph-mikata/,口コミサイト活用,OpenWork,転職会議(VC)/リクルートエージェント(VC),(オープンワーク|openwork).*(形|グラフ|見方|目安|評価|ダイヤ|何点|平均点|点数)
+/openwork-white-company-mikata/,口コミサイト活用,OpenWork,転職会議(VC),(オープンワーク|openwork).*(ホワイト|見分け)
+/openwork-toroku-bareru/,口コミサイト活用,OpenWork,転職会議(VC),(オープンワーク|openwork).*(ばれ|バレ|ブロック|非公開)
+/openwork-hikaku-kinou/,口コミサイト活用,OpenWork,転職会議(VC),(オープンワーク|openwork).*(比較)
+/tenshokukaigi-kuchikomi-mikata-tsukaikata/,口コミサイト活用,転職会議,転職会議(VC),^(?!.*(vorkers|openwork|オープンワーク)).*転職会議(?!.*(退会|解約|ばれ|バレ|違い|比較|課金|有料|自動更新|スカウト))
+/tenshokukaigi-openwork-comparison/,口コミサイト活用,転職会議,転職会議(VC),(転職会議.*(openwork|オープンワーク|vorkers|違い|比較|どっち))|((openwork|オープンワーク|vorkers).*転職会議)
+/tenshokukaigi-cancel-withdrawal/,口コミサイト活用,転職会議,転職会議(VC),転職会議.*(退会|解約|課金|有料|自動更新)
+/tenshokukaigi-toroku-bareru/,口コミサイト活用,転職会議,転職会議(VC),転職会議.*(ばれ|バレ)
+/fujitsu-nenshu-hyouka-jinji-me/,IT企業研究,富士通,JAC Recruitment(VC)/レバテックダイレクト(A8),富士通|fujitsu
+/nttdata-chuto-nanido/,IT企業研究,NTTデータ,JAC Recruitment(VC)/リクルートエージェント(VC),(nttデータ|ntt データ|nttdata)(?!.*適性)
+/nttdata-tekiseikensa-ochita/,IT企業研究,NTTデータ,リクルートエージェント(VC),(nttデータ|ntt データ).*適性
+/hitachi-tenshoku-koukai/,IT企業研究,日立,JAC Recruitment(VC)/リクルートエージェント(VC),日立
+/nec-career-change-reputation-difficulty/,IT企業研究,NEC,JAC Recruitment(VC)/リクルートエージェント(VC),(nec|日本電気)(?!.*ai)
+/nec-ai-department-corporate-ai-workforce/,IT企業研究,NEC,レバテックダイレクト(A8),(nec.*ai|ai部署|ai部門|ai組織|コーポレートai)
+/japan-ibm-tenshoku-yametoke/,IT企業研究,外資IT,JAC Recruitment(VC),ibm
+/accenture-business-consultant-tenshoku/,IT企業研究,外資IT,JAC Recruitment(VC),アクセンチュア|accenture
+/salesforce-japan-career-change/,IT企業研究,外資IT,JAC Recruitment(VC),セールスフォース|salesforce
+/nri-yabai-yametoke/,IT企業研究,NRI,JAC Recruitment(VC),nri|野村総合
+/scsk-tenshoku-nanido/,IT企業研究,中堅SIer企業,リクルートエージェント(VC),scsk
+/ctc-tenshoku-nannido/,IT企業研究,中堅SIer企業,リクルートエージェント(VC),ctc|伊藤忠テクノ
+/otsuka-shokai-tenshoku-kitsui/,IT企業研究,中堅SIer企業,リクルートエージェント(VC),大塚商会
+/tisi-career-change/,IT企業研究,中堅SIer企業,リクルートエージェント(VC),tis
+/company-name-change-risk/,キャリア・働き方,社名変更,転職会議(VC),社名変更|移転を繰り返
+/major-sier-6-comparison/,SIer・SES業界研究,SIer比較,リクルートエージェント(VC),大手sier|sier.*(比較|6社)
+/user-sier-tier/,SIer・SES業界研究,ユーザー系SIer,レバテックダイレクト(A8),ユーザー系sier(?!.*ランキング)|siertier
+/user-sier-ranking/,SIer・SES業界研究,ユーザー系SIer,レバテックダイレクト(A8),ユーザー系sier.*ランキング
+/independent-sier-tier/,SIer・SES業界研究,独立系SIer,レバテックダイレクト(A8),独立系
+/independent-sier/,SIer・SES業界研究,独立系SIer,レバテックダイレクト(A8),独立系(?!.*(ランキング|tier|上場廃止))
+/independent-sier-delisting/,SIer・SES業界研究,独立系SIer,レバテックダイレクト(A8),上場廃止
+/maker-sier-tier/,SIer・SES業界研究,メーカー系SIer,レバテックダイレクト(A8),メーカー系sier(?!.*(ホワイト|ランキング))
+/maker-sier-white-ranking/,SIer・SES業界研究,メーカー系SIer,レバテックダイレクト(A8),メーカー系.*(ホワイト|ランキング)
+/sier-ses-docchi/,SIer・SES業界研究,SES,レバテックダイレクト(A8),sier.*ses|ses.*sier
+/sier-consul-webkei-chigai/,SIer・SES業界研究,SIer比較,Geekly(A8),sier.*(コンサル|web)
+/sier-tensyoku-jittai/,SIer・SES業界研究,SIer比較,リクルートエージェント(VC),sier.*転職
+/ses-syoryu-toritekiho-tenshoku/,SIer・SES業界研究,SES,レバテックダイレクト(A8),(ses|商流|取適法|下請)
+/ses-kigyou-miwakekata-erabikata/,SIer・SES業界研究,SES,レバテックダイレクト(A8),ses.*(見分け|選び)
+/seishain-haken-ses-chigai/,SIer・SES業界研究,SES,レバテックダイレクト(A8),(派遣|正社員).*ses|ses.*(派遣|正社員)
+/ipa-exam-reform-2027/,IPA試験・IT資格,IPA改編,レバテックダイレクト(A8),(応用情報|応用技術者|情報処理|ipa|試験.*2027|2027.*試験|経過措置)
+/ipa-exam-reform-career-impact/,IPA試験・IT資格,IPA改編,レバテックダイレクト(A8),(試験|資格).*(転職|キャリア|影響)
+/professional-digital-skill-exam/,IPA試験・IT資格,IPA改編,レバテックダイレクト(A8),デジタルスキル|プロフェッショナル
+/data-management-exam/,IPA試験・IT資格,IPA改編,レバテックダイレクト(A8),データマネジメント
+/network-specialist-haishi/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),ネットワークスペシャリスト|ネスペ
+/database-specialist-haishi/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),データベーススペシャリスト|dbスペシャリスト|デスペ
+/it-strategist-haishi/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),ストラテジスト
+/system-architect-haishi/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),システムアーキテク
+/embedded-specialist-haishi/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),エンベデッド|組込
+/project-manager-exam-reform/,IPA試験・IT資格,高度試験廃止,レバテックダイレクト(A8),プロジェクトマネージャ.*試験|pm試験
+/itpassport-kihonjoho-2027-henkou/,IPA試験・IT資格,ITパスポート・基本情報,第二新卒エージェントneo(A8),(itパスポート|基本情報).*(2027|変更|なくなる|廃止)
+/it-passport-iminai/,IPA試験・IT資格,ITパスポート・基本情報,第二新卒エージェントneo(A8),itパスポート.*(意味|履歴書|恥ずかし|書かない)|履歴書.*itパスポート
+/it-passport-kihonjoho-ukaranai/,IPA試験・IT資格,ITパスポート・基本情報,第二新卒エージェントneo(A8),(itパスポート|基本情報).*(受から|落ち|難しい)
+/it-passport-kihonjoho-ikashikata/,IPA試験・IT資格,ITパスポート・基本情報,第二新卒エージェントneo(A8),(itパスポート|基本情報).*(活か|転職|就職)
+/aws-sap-difficulty-salary/,IPA試験・IT資格,AWS資格,レバテックダイレクト(A8),(aws)?sap
+/aws-saa-difficulty/,IPA試験・IT資格,AWS資格,レバテックダイレクト(A8),saa|ソリューションアーキテクト|awsアソシエイト|aws資格
+/aws-cloud-practitioner-difficulty/,IPA試験・IT資格,AWS資格,レバテックダイレクト(A8),クラウドプラクティショナー|clf|cloud practitioner
+/linuc-lpic-level2-aws-saa-difficulty/,IPA試験・IT資格,Linux資格,レバテックダイレクト(A8),(linuc|lpic).*(2|レベル|saa)
+/linuc-lpic-difference/,IPA試験・IT資格,Linux資格,レバテックダイレクト(A8),linuc|lpic
+/ccna-infrastructure-engineer/,IPA試験・IT資格,インフラ資格,レバテックダイレクト(A8),ccna
+/infra-engineer-qualification-roadmap/,IPA試験・IT資格,インフラ資格,レバテックダイレクト(A8),インフラ.*資格
+/recruit-agent-hyoban/,転職サービス評判,リクルートエージェント,リクルートエージェント(VC),リクルートエージェント.*(評判|口コミ|ひどい|やばい|アンケート|企業側)
+/recruit-agent-tsukaikata/,転職サービス評判,リクルートエージェント,リクルートエージェント(VC),(リクルートエージェント|リクルート).*(アンケート|求人ポスト|使い方|面談|企業側)|求人ポスト
+/rikunabi-next-recruit-agent-chigai/,転職サービス評判,リクナビNEXT,リクナビNEXT(VC)/リクルートエージェント(VC),リクナビ.*リクルートエージェント|リクルートエージェント.*リクナビ
+/rikunabi-next-hyoban/,転職サービス評判,リクナビNEXT,リクナビNEXT(VC),リクナビ.*(評判|口コミ)
+/rikunabi-next-toroku-bareru/,転職サービス評判,リクナビNEXT,リクナビNEXT(VC),リクナビ.*(ばれ|バレ)
+/jac-recruitment-review/,転職サービス評判,JAC,JAC Recruitment(VC),jac
+/geekly-hyouban/,転職サービス評判,Geekly,Geekly(A8),ギークリー|geekly
+/levtech-career-reputation/,転職サービス評判,レバテック,レバテックダイレクト(A8)※キャリアは要提携確認,レバテック
+/assign-agent-review/,転職サービス評判,アサイン,要提携確認(アサイン),アサイン|assign
+/mynavi-it-agent-reputation/,転職サービス評判,マイナビIT,要提携確認(マイナビIT AGENT),マイナビ
+/type-agent-reputation/,転職サービス評判,type,要提携確認(type転職エージェント),type(?!.*女性)
+/type-woman-agent-reputation/,転職サービス評判,type,要提携確認(type女性の転職エージェント),type.*女性
+/techgo-hyouban-jinji/,転職サービス評判,TechGo,要提携確認(TechGo),テックゴー|techgo
+/uzuz-hyouban-jinji/,転職サービス評判,UZUZ,要提携確認(UZUZ)/第二新卒エージェントneo(A8),uzuz|ウズウズ
+/it-tensyoku-agent-osusume/,転職サービス評判,エージェント総合,リクルートエージェント(VC)/JAC(VC)/レバテックダイレクト(A8),(it|エンジニア).*エージェント.*(おすすめ|比較)
+/agent-review/,転職サービス評判,エージェント総合,リクルートエージェント(VC),^$
+/tensyoku-agent-misuterareru/,転職サービス評判,エージェント使い方,リクルートエージェント(VC),見捨て|放置|断られ
+/tenshoku-agent-kashikoi-tsukaikata/,転職サービス評判,エージェント使い方,リクルートエージェント(VC),エージェント.*(使い方|活用|賢)
+/40s-tenshoku-agent-katsuyo/,転職サービス評判,エージェント使い方,JAC Recruitment(VC),40代.*エージェント
+/direct-application-vs-agent/,転職サービス評判,応募経路,リクルートエージェント(VC)/リクナビNEXT(VC),直接応募|直接どっち|直接.*エージェント
+/application-route-comparison/,転職サービス評判,応募経路,リクルートエージェント(VC)/リクナビNEXT(VC),応募.*(経路|方法|ルート)
+/job-change-scout-meaning-mechanism/,転職サービス評判,スカウト,レバテックダイレクト(A8),スカウト
+/rirekisho-ai-bareru/,選考対策,AI応募書類,リクルートエージェント(VC),(履歴書|職務経歴書|経歴書).*(ai|chatgpt).*(ばれ|バレ)|ai履歴書
+/shokumukeirekisho-ai-chatgpt-sakusei/,選考対策,AI応募書類,リクルートエージェント(VC),(職務経歴書|経歴書).*(chatgpt|ai)(?!.*(ばれ|バレ))
+/ai-buntai-rirekisho-syokumukerekisho/,選考対策,AI応募書類,リクルートエージェント(VC),ai.*文体
+/ai-mensetsu-shorui-senko/,選考対策,AI応募書類,リクルートエージェント(VC),ai.*(面接|選考)
+/rirekisyo-kakikata/,選考対策,応募書類の書き方,リクルートエージェント(VC),履歴書.*(書き方|書く)
+/chuto-syorui-senko-ochiru/,選考対策,書類選考落ち,リクルートエージェント(VC),書類選考.*(落ち|通らない)(?!.*理由)
+/it-tensyoku-syorui-ochiru-riyu/,選考対策,書類選考落ち,リクルートエージェント(VC),(it|エンジニア).*書類.*落ち|書類.*落ち.*(it|エンジニア)
+/tensyoku-shorui-senkou-ochiru-riyuu/,選考対策,書類選考落ち,リクルートエージェント(VC),書類.*落ち.*(理由|原因)
+/document-screening-cutoff/,選考対策,書類選考落ち,リクルートエージェント(VC),足切り
+/document-screening-pass-rate/,選考対策,書類選考落ち,リクルートエージェント(VC),書類.*通過率|通過率
+/document-screening-1minute/,選考対策,書類選考落ち,リクルートエージェント(VC),書類選考.*(時間|1分|何分)
+/45sai-it-shorui-senko/,選考対策,書類選考落ち,JAC Recruitment(VC),45|40代.*書類
+/it-mikeiken-shokumukeirekisho-shorui-senko/,選考対策,未経験IT転職,第二新卒エージェントneo(A8),未経験.*(職務経歴書|書類)
+/it-tensyoku-ochiru-kyotsu/,選考対策,書類選考落ち,リクルートエージェント(VC),落ちる.*共通
+/job-rejection-reasons/,選考対策,不採用理由,リクルートエージェント(VC),不採用|お祈り|落ちた理由
+/2ji-mensetsu-taisaku-tensyoku-mikeiken/,選考対策,面接対策,リクルートエージェント(VC),二次面接|2次面接
+/it-tensyoku-mikeiken-1ji-mensetsu/,選考対策,面接対策,第二新卒エージェントneo(A8),一次面接|1次面接
+/it-tensyoku-saishu-mensetsu-taisaku/,選考対策,面接対策,リクルートエージェント(VC),最終面接
+/it-interview-points/,選考対策,面接対策,リクルートエージェント(VC),面接.*(ポイント|見られ)
+/online-interview-tips-from-it-hr/,選考対策,面接対策,リクルートエージェント(VC),web面接|オンライン面接
+/tensyoku-mensetsu-gyakushitsumon/,選考対策,面接対策,リクルートエージェント(VC),逆質問
+/tensyoku-riyu-mensetsu-tsutaekata/,選考対策,転職理由,リクルートエージェント(VC),転職理由.*(面接|伝え|本音)
+/tensyoku-riyu-negative/,選考対策,転職理由,リクルートエージェント(VC),転職理由.*ネガティブ
+/it-tenshoku-shiboudouki-customize/,選考対策,志望動機,リクルートエージェント(VC),志望動機
+/tensyoku-jikopr-kakikata-tsutaekata/,選考対策,自己PR,リクルートエージェント(VC),自己pr
+/tensyoku-kaisuu-ooi-furi/,選考対策,転職回数,リクルートエージェント(VC),転職回数
+/reference-check-jinji-kaisetsu/,選考対策,リファレンスチェック,リクルートエージェント(VC),リファレンス
+/kibotaishoku-mensetsu-riyu/,選考対策,希望退職,リクルートエージェント(VC),希望退職.*面接
+/nensyu-kousyou-yarikata/,選考対策,年収交渉,JAC Recruitment(VC),年収交渉|オファー面談
+/job-offer-acceptance-decision-tips/,選考対策,内定判断,転職会議(VC),内定.*(承諾|迷|判断|決め)
+/tensyoku-kigyou-kenkyuu/,選考対策,企業研究のやり方,転職会議(VC),企業研究
+/tenshoku-kigyou-kenkyu-yarikata/,選考対策,企業研究のやり方,転職会議(VC),企業研究.*やり方
+/instant-offer-one-interview-black-company-warning/,求人票・ブラック企業,即内定,転職会議(VC)/リクルートエージェント(VC),(面接(1|一)回|即日内定|即日採用|即内定|即採用|1day選考|面接2回1回)
+/low-hiring-standards-black-company-risk/,求人票・ブラック企業,即内定,転職会議(VC),採用基準.*(低|ゆる)
+/athome-kyujin-black-tensyoku/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),アットホーム
+/annual-holidays-few-job-posting-warning/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),年間休日|休日.*少
+/tairyo-boshu-kyujin-black-kigyo/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),大量(採用|募集)
+/kanbu-kouho-kyuujin-black/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),幹部候補|管理職候補
+/job-posting-high-salary-black-company-warning/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),(高給|給料.*(高|いい)|高収入|年収.*高.*求人).*(ブラック|やばい|求人|逆襲)|高給料
+/kyujinhyo-black-kigyo-checklist/,求人票・ブラック企業,求人票の見方,転職会議(VC),求人票.*(ブラック|チェック|要注意)|こんな求人票
+/kyujinho-mikata-point/,求人票・ブラック企業,求人票の見方,転職会議(VC),求人票.*(見方|ポイント|離職率)
+/kyuujinhyou-aimai-hyougen-black/,求人票・ブラック企業,求人票の危険ワード,転職会議(VC),曖昧
+/engineer-ai-nakunaru/,キャリア・働き方,AI時代のキャリア,レバテックダイレクト(A8),(エンジニア|se|プログラマー).*(なくなる|不要|ai)
+/ai-jidai-engineer-skill/,キャリア・働き方,AI時代のキャリア,レバテックダイレクト(A8),ai時代|ai.*スキル
+/engineer-touta-ikinokoru/,キャリア・働き方,AI時代のキャリア,レバテックダイレクト(A8),淘汰|生き残
+/seisei-ai-engineer-nenshu/,キャリア・働き方,生成AI職種,Geekly(A8),生成ai.*(年収|エンジニア)
+/seisei-ai-it-tensyoku-guide/,キャリア・働き方,生成AI職種,Geekly(A8),生成ai.*転職
+/kuroji-restructuring-taishosha/,キャリア・働き方,黒字リストラ,JAC Recruitment(VC),黒字リストラ|リストラ.*対象
+/kuroji-restructuring-40s-career-defense/,キャリア・働き方,黒字リストラ,JAC Recruitment(VC),リストラ.*40
+/kibotaishoku-oujirubeki-ka/,キャリア・働き方,希望退職,JAC Recruitment(VC),希望退職(?!.*面接)
+/40dai-it-keiken-tanaoroshi/,キャリア・働き方,40代キャリア,JAC Recruitment(VC),40代.*(棚卸|経験)
+/20dai-kohan-tenshoku-genjitsu/,キャリア・働き方,20代転職,第二新卒エージェントneo(A8),20代
+/mikeiken-it-tensyoku-2026/,キャリア・働き方,未経験IT転職,第二新卒エージェントneo(A8),未経験.*it|it.*未経験
+/it-tensyoku-syokusyu/,キャリア・働き方,未経験IT転職,Geekly(A8),it.*職種
+/it-tenshoku-taishoku-tsutaekata/,キャリア・働き方,退職,リクルートエージェント(VC),退職.*(伝え|切り出)
+/profile/,サイト基本ページ,-,-,^$
+/contact/,サイト基本ページ,-,-,^$
+/disclaimer/,サイト基本ページ,-,-,^$

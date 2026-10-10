@@ -52,3 +52,13 @@ scripts/                               取込・分析スクリプト
 iconv -f CP932 -t UTF-8 元ファイル.csv > data/affiliate/<取得日>/<asp>_<内容>.csv
 ```
 氏名などの個人情報を含む列は、コミット前に削除すること。
+
+## Excelレポート
+
+```sh
+python3 scripts/build_excel_report.py   # reports/excel/saiyo-ura_改善レポート_<取得日>.xlsx を作成
+```
+
+- 記事のテーマ・競合グループ・推奨案件・関連クエリの判定パターンは `data/articles/article_master.csv` で管理する（記事を追加したら1行追加）。
+- 人が判断した所見（記事別の修正点・競合グループの判定・良い点/悪い点・方向性）は `scripts/report_notes_<日付>.py` に書く。
+- 生成後、LibreOffice等で数式を再計算してから開くと、取りこぼし見込みなどの値が表示される（Excelでは開いた時に自動で再計算される）。
