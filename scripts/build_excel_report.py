@@ -484,11 +484,17 @@ def sheet_summary(wb, d, df):
         ("2", "壊れたURLの修正", "「URL・技術課題」シートの手順で、https抜けリンク・末尾「]」・www付きを修正"),
         ("3", "A8広告の棚卸し", "流入増に反して表示が減っている原因（バナーの削除・設置記事の偏り）を確認"),
     ]
+    todo = [(no, name, f"{notes.TODO_STATUS[name]}\n{desc}" if name in notes.TODO_STATUS else desc) for no, name, desc in todo]
     for _, row in df[df.tier == "S"].iterrows():
         todo.append((str(len(todo) + 1), f"重点記事（優先{row['rank']}）", f"{row.name}：導線の設置 → 2週間後にタイトル変更（詳細は「重点9記事_詳細」）"))
     r = write_table(ws, r, ["No", "対応", "内容"], todo, wrap_cols=("内容",))
-    for i in range(len(todo)):
-        ws.merge_cells(start_row=r - 1 - len(todo) + i, start_column=3, end_row=r - 1 - len(todo) + i, end_column=7)
+    for i, (_, name, _) in enumerate(todo):
+        row = r - 1 - len(todo) + i
+        ws.merge_cells(start_row=row, start_column=3, end_row=row, end_column=7)
+        if name in notes.TODO_STATUS:
+            ws.row_dimensions[row].height = 54
+            for col in (1, 2, 3):
+                ws.cell(row=row, column=col).fill = PatternFill("solid", fgColor="E2EFDA")
 
 
 def sheet_good_bad(wb):
@@ -723,12 +729,14 @@ def sheet_url(wb, d):
         c = cause.get(x.kind, ("", "", "", ""))
         i28 = int(p28.loc[p28.page == x.page, "impressions"].sum())
         i7 = int(p7.loc[p7.page == x.page, "impressions"].sum())
-        rows.append((x.page, x.kind, int(x.impressions), int(x.clicks), round(x.position, 1), i28, i7, c[0], c[1], c[2], c[3]))
-    r = write_table(ws, 3, ["URL", "種別", "3か月表示", "3か月クリック", "平均順位", "28日表示", "7日表示", "推定原因", "対処方法", "確認方法", "優先度"],
-                    rows, widths=[48, 22, 9, 9, 8, 8, 8, 50, 60, 40, 7],
-                    fmts={"3か月表示": "#,##0"}, wrap_cols=("URL", "種別", "推定原因", "対処方法", "確認方法"), zebra=False)
-    for i in range(len(rows)):
+        status = notes.URL_STATUS.get(x.page, "未対応")
+        rows.append((x.page, x.kind, int(x.impressions), int(x.clicks), round(x.position, 1), i28, i7, c[0], c[1], c[2], c[3], status))
+    r = write_table(ws, 3, ["URL", "種別", "3か月表示", "3か月クリック", "平均順位", "28日表示", "7日表示", "推定原因", "対処方法", "確認方法", "優先度", "対応状況"],
+                    rows, widths=[48, 22, 9, 9, 8, 8, 8, 50, 60, 40, 7, 40],
+                    fmts={"3か月表示": "#,##0"}, wrap_cols=("URL", "種別", "推定原因", "対処方法", "確認方法", "対応状況"), zebra=False)
+    for i, row in enumerate(rows):
         ws.row_dimensions[4 + i].height = 90
+        ws.cell(row=4 + i, column=12).fill = PatternFill("solid", fgColor="E2EFDA" if row[-1].startswith("完了") else "FCE4D6")
 
     r = section(ws, r, "参考：目次アンカー付きURL（#index_id）について")
     anc = p3[p3.kind == "目次アンカー付き"]
@@ -863,7 +871,7 @@ def sheet_affiliate(wb, d):
         "・成果：バリューコマースの転職会議で1件・330円が発生（9/12・未承認）。それ以外は全ASPで0件。",
         "・表示：A8の表示は7月324→8月193→9月97→10月51と減少。同じ期間に検索流入は約2倍に増えており、流入の多い記事に広告が置かれていない、または既存のバナーが外れている可能性が高い。",
         "・クリック：VCは30日で646表示・22クリック。検索流入（月約4,700）に対し、アフィリエイトのクリックは全ASP合計で月約25（約0.5%）。",
-        "・無関係な広告：じゃらんnet・一休.comが各34表示。読者（転職検討者）と無関係なので撤去。",
+        "・無関係な広告：じゃらんnet・一休.comが各34表示。2026-10-11確認：採用のウラ側の記事に該当コードはなく、別ブログが採用のウラ側のsidのコードを使っている可能性が高い（reports/progress/2026-10-11_url-ad-cleanup.md）。",
         "・リクナビNEXTは12表示に対して13クリック（テキストリンク経由とみられる）。テキストリンクでもクリックされる案件。",
         "・レバテックダイレクト（A8）は431表示・15クリック（3.5%）でA8の中で最も実績がある。IT系記事のスカウト導線に使う。",
     ]
@@ -897,7 +905,7 @@ def sheet_affiliate(wb, d):
     for k, x in d["vc_adv"].iterrows():
         rr = r + 1 + k
         rows.append((x["広告主"], int(x["表示"]), int(x["クリック"]), f"=IFERROR(C{rr}/B{rr},0)", int(x["注文数"]), int(x["報酬合計"]),
-                     "無関係な広告。撤去" if x["広告主"] in ("じゃらんnet", "一休.com") else ""))
+                     "別ブログのコード混入の可能性（対応記録参照）" if x["広告主"] in ("じゃらんnet", "一休.com") else ""))
     r = write_table(ws, r, ["広告主", "表示", "クリック", "CTR", "発生件数", "報酬（円・未承認含む）", "メモ"], rows,
                     fmts={"表示": "#,##0", "CTR": "0.0%", "報酬（円・未承認含む）": "#,##0"}, wrap_cols=("広告主",))
 
