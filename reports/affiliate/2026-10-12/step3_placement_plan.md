@@ -352,7 +352,7 @@ SWELL → ブログパーツ → 新規追加 → タイトル「パックJ_比�
     <div class="saiyo-cta__header-row"><div>サービス名</div><div>特徴・対象</div><div>ポイント</div><div>公式サイト</div></div>
     <div class="saiyo-cta__row saiyo-cta__row--best"><span class="saiyo-cta__rank">職種を問わず</span>
       <div class="saiyo-cta__name">
-        <a class="saiyo-cta__name-link" href="【ここを、VCで発行したJACのクリック用URLに置き換える】" rel="nofollow sponsored">
+        <a class="saiyo-cta__name-link" href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765202&amp;pid=892724768" rel="nofollow sponsored">
           <div class="saiyo-cta__logo--text">JAC<br>リクルートメント</div>
           <div class="saiyo-cta__name-text">エージェント型</div>
         </a>
@@ -366,8 +366,7 @@ SWELL → ブログパーツ → 新規追加 → タイトル「パックJ_比�
         ✓ 東京・横浜・名古屋・大阪などに拠点がある
       </div>
       <div class="saiyo-cta__btn-cell">
-        <a class="saiyo-cta__btn" href="【ここを、VCで発行したJACのクリック用URLに置き換える】" rel="nofollow sponsored">無料で相談する ›<small>この端末のまま完了を</small></a>
-        <!-- ここに、VCで発行したJACのコードの中の計測用画像（gifbanner の img の行）をそのまま貼る -->
+        <a class="saiyo-cta__btn" href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765202&amp;pid=892724768" rel="nofollow sponsored"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3765202&amp;pid=892724768" height="1" width="1" border="0">無料で相談する ›<small>この端末のまま完了を</small></a>
       </div>
     </div>
     <div class="saiyo-cta__row"><span class="saiyo-cta__rank">エンジニアなら</span>
@@ -395,6 +394,8 @@ SWELL → ブログパーツ → 新規追加 → タイトル「パックJ_比�
 </div>
 <!-- /wp:html -->
 ```
+
+JAC・neo のコードは 2026-10-12 に運営者が発行したものを入れた（JAC：VC sid=3765202・pid=892724768／neo：A8 a8mat=4B1ILL+72TKGQ+3Y6M+63H8I。72TKGQ はサイト002＝採用のウラ側）。JAC の計測用画像（gifbanner）は、発行コードと同じくリンクの中に置き、ボタンだけに入れた（社名のリンクには入れない。1回の表示で2回数えないため）。
 
 JACの禁止事項に合わせた点：年収の数字は「600万円以上の方が中心」（利用者の特徴の記載）だけで、上限のある年収訴求は入れていない。取引企業のロゴ・メールのキャプチャーは使っていない。社名は文字で表示（ロゴ画像は使わない）。
 
@@ -451,7 +452,7 @@ JACの禁止事項に合わせた点：年収の数字は「600万円以上の�
   <div class="saiyo-cta__panel">
     <div class="saiyo-cta__row saiyo-cta__row--best">
       <div class="saiyo-cta__name">
-        <a class="saiyo-cta__name-link" href="【ここを、A8で「採用のウラ側」を選んで発行したneoのクリック用URLに置き換える】" rel="nofollow sponsored">
+        <a class="saiyo-cta__name-link" href="https://px.a8.net/svt/ejp?a8mat=4B1ILL+72TKGQ+3Y6M+63H8I" rel="nofollow sponsored">
           <div class="saiyo-cta__logo--text">第二新卒<br>エージェントneo</div>
           <div class="saiyo-cta__name-text">伴走型エージェント</div>
         </a>
@@ -465,8 +466,8 @@ JACの禁止事項に合わせた点：年収の数字は「600万円以上の�
         ✓ 東京・大阪・福岡の拠点とWEB面談で全国に対応
       </div>
       <div class="saiyo-cta__btn-cell">
-        <a class="saiyo-cta__btn" href="【ここを、A8で「採用のウラ側」を選んで発行したneoのクリック用URLに置き換える】" rel="nofollow sponsored">無料で相談する ›<small>登録後、そのまま面談日を選べます</small></a>
-        <!-- ここに、A8で発行したneoのコードの 0.gif の img の行をそのまま貼る -->
+        <a class="saiyo-cta__btn" href="https://px.a8.net/svt/ejp?a8mat=4B1ILL+72TKGQ+3Y6M+63H8I" rel="nofollow sponsored">無料で相談する ›<small>登録後、そのまま面談日を選べます</small></a>
+        <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4B1ILL+72TKGQ+3Y6M+63H8I" alt="">
       </div>
     </div>
   </div>
@@ -474,6 +475,8 @@ JACの禁止事項に合わせた点：年収の数字は「600万円以上の�
 </div>
 <!-- /wp:html -->
 ```
+
+neo は2種類の素材のうち「【公式】第二新卒エージェントneo」（63H8I・www15）を使った。もう一方（63OYA）は「大学中退、中卒、高卒の就職なら」という文言の素材で、1790 の読者（ITパスポート・基本情報の受験者）とは訴求がずれるため。リンクの文字はボタンの文言に変えている。
 
 neo のPR文の数字（書類通過率94.7%、★4.4、平均年収113万円UP など）は時点の記載がないので使っていない。「大手で断られた」という切り口は、JACの禁止事項（「◯◯に断られた」）と同じ種類なので使っていない。
 
@@ -485,7 +488,19 @@ neo のPR文の数字（書類通過率94.7%、★4.4、平均年収113万円UP 
 <a href="https://px.a8.net/svt/ejp?a8mat=4B1ILL+786GWQ+2JK4+4SNX5E" rel="nofollow sponsored">レバテックダイレクト</a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=4B1ILL+786GWQ+2JK4+4SNX5E" alt="">
 ```
 
-JAC：VCで「テキスト」の素材を選んで発行したコードを、そのまま貼る（gifbanner の計測用画像を含む）。リンクの文字だけ「JACリクルートメント」に変えてよいかは、VCの素材の規定を確認する。
+JAC（VCで発行したコード。「自由テキスト」の部分を「JACリクルートメント」にした。計測用画像 gifbanner はリンクの中のまま）：
+
+```html
+<a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765202&amp;pid=892724768" rel="nofollow sponsored"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3765202&amp;pid=892724768" height="1" width="1" border="0">JACリクルートメント</a>
+```
+
+979 での使い方（2か所）：
+- H2「課長・部長は何レベル？」の最後のメモの直後：
+  `<p>ポジションの等級をエージェント経由で確認したい方は、`＋上のJACのリンク＋`に相談できます。年収600万円以上の方が中心のサービスです。</p>`
+- H2「まとめ」の箇条書き：
+  `<li>管理・専門職、年収600万円以上の方 → `＋JACのリンク＋`</li>`
+  `<li>エンジニア・クリエイターの実務経験がある方 → `＋レバテックダイレクトのリンク（上）＋`</li>`
+- 段落ブロックに貼るとWordPressが img を消すことがあるので、**カスタムHTMLブロック**で入れる。
 
 ### 4-6. 学習系の差し込み枠
 
@@ -495,8 +510,8 @@ JAC：VCで「テキスト」の素材を選んで発行したコードを、そ
 
 ## 5. 運営者に判断・作業をお願いすること
 
-1. **JACをVCで発行する**（テキスト素材とクリック用URL。計測用画像の行を含む）。発行画面のサイトが「採用のウラ側」になっていることを確認する。
-2. **neo をA8で発行する**（サイト「採用のウラ側」を選ぶ）。
+1. ~~JACをVCで発行する~~（2026-10-12 発行済み。VC の sid=3765202 が「採用のウラ側」のサイトIDかを、VC管理画面のサイト一覧で確認する）
+2. ~~neo をA8で発行する~~（2026-10-12 発行済み。サイト002を確認済み）
 3. パックJ・N の「人事コメント」を、運営者の言葉に直す。
 4. Geekly を今回使わない判断でよいか。
 5. 1489 のIT企画職がレバテックダイレクトの対象になるか、A8の問い合わせ窓口で確認するか。
