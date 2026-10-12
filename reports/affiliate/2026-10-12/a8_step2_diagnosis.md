@@ -1,5 +1,7 @@
 # A8広告 原因の判定（STEP2）2026-10-12
 
+> **このファイルは初版です。確定版は `a8_step2_final.md` を参照（仮説1の判定を「外れ」に変更）。**
+
 前提資料：`reports/affiliate/2026-10-11/a8_inventory_step1.md`（確定済み）、`data/affiliate/2026-10-12/`
 
 ## まとめ
