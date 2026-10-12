@@ -1,8 +1,9 @@
-post_id,slug,search_clicks_28d,program,program_code_in_a8mat,a8mat,format,position,impression_tag,site_mismatch,note
-81,/it-tensyoku-agent-osusume/,0,Geekly,3GVA,4AXJKA+EZEQUQ+3GVA+61JSH,バナー728x90（カスタムHTML）,見出しの直後（どの見出しかは要確認）,あり（svt/bgt と 0.gif の両方。A8の標準コードのまま）,なし（4AXJKA。他の記事と同じ）,
-787,/uzuz-hyouban-jinji/,0,UZUZ（要確認）,33T0,45BOB5+9Z0EK2+33T0+C6J1E,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし,疑いあり（前半が45BOB5で、ほかの4本の4AXJKAと違う）,提携中の3案件に入っていない
-814,/geekly-hyouban/,1,Geekly,3GVA,4AXJKA+EZEQUQ+3GVA+66WOY,SWELLボタン（赤）,要確認,あり（ボタンの計測用画像欄に設定済み）,なし（4AXJKA）,
-814,/geekly-hyouban/,1,Geekly,3GVA,（バナーの a8mat は未確認）,バナー728x90,要確認,あり（svt/bgt）,なし（81と同じバナーコードを使い回し）,
-835,/techgo-hyouban-jinji/,0,TechGO（推定）,5B0Y,4AXJKA+F171O2+5B0Y+HVFKY,テキストリンク（段落内）,要確認,なしの疑い（見つかった0.gifは末尾がHVNAPで、リンクのHVFKYと一致しない）,なし（4AXJKA）,提携中の3案件に入っていない
-835,/techgo-hyouban-jinji/,0,TechGO（推定）,5B0Y,4AXJKA+F171O2+5B0Y+HVNAP（推定）,バナー300x250（カスタムHTML）,要確認,あり（svt/bgt。mid=s00000024757003）,なし（4AXJKA）,
-892,/levtech-career-reputation/,6,TechGO（推定）,5B0Y,4AXJKA+F171O2+5B0Y+HVFKY,ボタン,要確認,なし（作業メモに「0.gifの1行を削除済み」と書かれている）,なし（4AXJKA）,AIの作業メモ（非表示）は2026-10-11に運営者が削除。提携中の3案件に入っていない
+post_id,slug,search_clicks_28d,program,program_no,a8mat,partnership_block,wid,format,position,impression_tag,note
+81,/it-tensyoku-agent-osusume/,0,Geekly,16183,4AXJKA+EZEQUQ+3GVA+61JSH,260225866,001,バナー728x90（カスタムHTML）,見出しの直後（どの見出しかは要確認）,あり（svt/bgt と 0.gif）,
+787,/uzuz-hyouban-jinji/,0,UZUZ（推定）,14490,45BOB5+9Z0EK2+33T0+C6J1E,250807505,001,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし,提携中の3案件に入っていない
+814,/geekly-hyouban/,1,Geekly,16183,4AXJKA+EZEQUQ+3GVA+66WOY,260225866,001,SWELLボタン（赤）,要確認,あり（ボタンの計測用画像欄）,
+814,/geekly-hyouban/,1,Geekly,16183,（81と同じバナーコード）,260225866,001,バナー728x90,要確認,あり（svt/bgt）,
+835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001,テキストリンク（段落内）,要確認,なしの疑い,提携状況は要確認
+835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVNAP,260225866,001,バナー300x250（カスタムHTML）,要確認,あり（svt/bgt と 0.gif）,
+892,/levtech-career-reputation/,6,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし（2026-10-11に作業メモで削除を確認）,作業メモは削除済み
+892,/levtech-career-reputation/,6,レバテックダイレクト,11866,4B1ILL+786GWQ+2JK4+4SNXSE,260411241,002,計測用画像は確認済み。リンク本体は未確認,要確認,あり（aria-hidden の 0.gif）,このコードだけ wid=002
