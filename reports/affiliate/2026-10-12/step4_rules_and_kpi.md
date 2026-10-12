@@ -1,4 +1,4 @@
-# STEP4：再発防止のルールと効果測定の基準 2026-10-12
+# STEP4：再発防止のルールと効果測定の基準 2026-10-12 【確定：2026-10-12 運営者了承】
 
 根拠：STEP1（`../2026-10-11/a8_inventory_step1.md`、別ブランチ）、STEP2（`a8_step2_final.md`、別ブランチ）、STEP3（`step3_placement_plan.md`）、案件の条件（`program_conditions.md`）。
 
