@@ -38,7 +38,7 @@
 | 学習系 | 記事ごとの差し込み枠 | 【②-2 の資料を受け取ってから作る】 | 664・1790・1809・1462・1827・1143 |
 
 - **Geekly は今回の10記事では使わない。** 役割がJAC（経験者・職種を問わない）と重なるうえ、成果地点が「60日以内の面談完了」と重い。年齢・未経験の表現の制限も強い。報酬額を見てから、もう一度検討する。
-- テックゴーは 2111 に残す。**A8の TechGo（新規無料面談18,000円）と、今のもしもの報酬を比べ、A8のほうが高ければ A8 で発行し直して差し替える**（その場合、計測用画像の行も A8 の 0.gif に変わる）。ただし、パックにある「10,000件以上（2026年7月時点）」「模擬面接の回数に制限なし」「1Day選考会」「ITコンサル・メガベンチャーの求人が豊富」は、掲載条件の資料を受け取っていないので【要確認】（⑥）。
+- テックゴーは 2111 に残し、**もしも（14,000円）からA8（18,000円）に切り替える**（2026-10-12 運営者判断）。A8で「採用のウラ側」を選んで発行し直す。835・892 の TechGO（A8・サイト001で発行）は使わない。ただし、パックにある「10,000件以上（2026年7月時点）」「模擬面接の回数に制限なし」「1Day選考会」「ITコンサル・メガベンチャーの求人が豊富」は、掲載条件の資料を受け取っていないので【要確認】（⑥）。
 
 ---
 
@@ -266,9 +266,9 @@
     </div>
     <div class="saiyo-cta__row">
       <div class="saiyo-cta__name">
-        <a class="saiyo-cta__name-link" href="//af.moshimo.com/af/c/click?a_id=5422590&amp;p_id=6722&amp;pc_id=19209&amp;pl_id=90851" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">
-          <img class="saiyo-cta__logo" src="//image.moshimo.com/af-img/5666/000000090851.png" width="100" height="60" alt="テックゴー">
-          <div class="saiyo-cta__name-text">テックゴー</div>
+        <a class="saiyo-cta__name-link" href="【ここを、A8で「採用のウラ側」を選んで発行したTechGoのクリック用URLに置き換える】" rel="nofollow sponsored">
+          <div class="saiyo-cta__logo--text">テックゴー<br>（TechGo）</div>
+          <div class="saiyo-cta__name-text">エージェント型</div>
         </a>
       </div>
       <div class="saiyo-cta__count">10,000件<span style="font-size:11px">以上</span><span class="saiyo-cta__count-sub">（2026年7月時点）</span><span class="saiyo-cta__target">実務2年以上のITエンジニア<br>20代後半〜30代が中心</span></div>
@@ -280,8 +280,8 @@
         ✓ ITコンサル・メガベンチャーの求人が豊富
       </div>
       <div class="saiyo-cta__btn-cell">
-        <a class="saiyo-cta__btn" href="//af.moshimo.com/af/c/click?a_id=5422590&amp;p_id=6722&amp;pc_id=19209&amp;pl_id=90851" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">無料で相談する ›<small>入力は数分で完了</small></a>
-        <img src="//i.moshimo.com/af/i/impression?a_id=5422590&amp;p_id=6722&amp;pc_id=19209&amp;pl_id=90851" width="1" height="1" style="border:none;" alt="">
+        <a class="saiyo-cta__btn" href="【ここを、A8で「採用のウラ側」を選んで発行したTechGoのクリック用URLに置き換える】" rel="nofollow sponsored">無料で相談する ›<small>入力は数分で完了</small></a>
+        <!-- ここに、A8で発行したTechGoのコードの 0.gif の img の行をそのまま貼る -->
       </div>
     </div>
   </div>
@@ -290,7 +290,11 @@
 <!-- /wp:html -->
 ```
 
-テックゴーの行（求人数・人事コメント・3つのポイント）は今の文言のまま。根拠となる掲載条件をまだ確認していない【要確認】（⑥）。
+テックゴーの行は、**A8版に切り替え済み**（2026-10-12 運営者判断。A8 18,000円＞もしも 14,000円）。
+- リンク2か所と計測用画像1行は、A8で「採用のウラ側」を選んで発行したものに置き換える。差し込み枠を埋めないまま公開しない。
+- ロゴは、もしもの素材画像（image.moshimo.com）をA8のリンクと組み合わせるわけにいかないので、ほかの行と同じ文字のロゴにした。A8の素材のバナーを使う場合は、発行したコードをそのまま使う。
+- もしものリンクと計測用画像（i.moshimo.com）は、このパックから外れる。もしもの TechGO の提携は、ほかに使っている場所がなければそのままでよい。
+- 求人数・人事コメント・3つのポイントは今の文言のまま。A8 の TechGo のプログラム詳細（成果条件・否認条件・PR文）と照らし合わせて【要確認】。
 
 ### 4-3. パックJ（新規：JAC＋レバテックダイレクト）
 
@@ -497,5 +501,5 @@ JAC：VCで「テキスト」の素材を選んで発行したコードを、そ
 4. Geekly を今回使わない判断でよいか。
 5. 1489 のIT企画職がレバテックダイレクトの対象になるか、A8の問い合わせ窓口で確認するか。
 6. 学習系の案件（②-2）。
-7. もしものテックゴーの報酬額と成果条件（A8の TechGo 18,000円と比べるため）。
+7. **A8で TechGo を「採用のウラ側」で発行する**。あわせて、A8のプログラム詳細（成果条件・否認条件・再訪問期間・PR文）を共有してもらい、パックの文言と照らし合わせる。
 8. レバテックキャリア（VC・11,000円）は、レバテックダイレクトと同じ会社で、先に登録したほうしか成果にならない。上位10記事では使わない（892 の評判記事など、レバテックキャリアそのものを扱う記事で使う）。
