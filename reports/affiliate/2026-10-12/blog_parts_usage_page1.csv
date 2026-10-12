@@ -1,0 +1,27 @@
+# Search Regex「blog_parts」1ページ目（運営者のスクリーンショットから転記。ID 49〜355 は画像が小さく、パーツIDの読み取りに不確実さあり）
+post_id,slug_or_title,blog_parts_ids,search_clicks_per_day_28d,note
+49,IT転職で落ちる人の共通点,2660,,
+102,転職エージェントの使い方,2644,,
+147,未経験からIT転職を成功させる方法,2660,,
+170,/it-tensyoku-mikeiken-1ji-mensetsu/,2660,0.07,
+195,AI文章・職務経歴書,2660,,
+228,履歴書の書き方,2660,,
+241,転職の二次面接,2538,,
+281,自己PRの書き方,2660,,
+302,/ses-kigyou-miwakekata-erabikata/,2538;2539,0.04,
+326,/it-passport-kihonjoho-ikashikata/,2538;2539,0.07,
+337,IT業界の職種,2538,,
+347,転職の企業研究,2111,,パックA
+355,SIerの実態,2111;2112,,パックA
+376,/athome-kyujin-black-tensyoku/,2644,0.32,
+386,/tairyo-boshu-kyujin-black-kigyo/,2644,0.93,
+400,/kanbu-kouho-kyuujin-black/,2644,0.39,
+411,求人票に曖昧表現が多い会社,2644,,
+422,/low-hiring-standards-black-company-risk/,2644,0.11,
+434,/instant-offer-one-interview-black-company-warning/,2644,2.07,
+479,/job-posting-high-salary-black-company-warning/,2644,0.39,
+496,/annual-holidays-few-job-posting-warning/,2644,0.71,
+516,/kyujinhyo-black-kigyo-checklist/,2644,0.11,
+550,/company-name-change-risk/,000X（仮のID）,1.54,AIの作業メモが本文に残っている。「[blog_parts id="000X"] が2か所。公開前に差し替え必須」と書かれている
+559,/job-offer-acceptance-decision-tips/,2111;2112,0.14,パックA
+586,/online-interview-tips-from-it-hr/,2111,,パックA
