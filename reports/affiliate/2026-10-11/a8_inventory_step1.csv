@@ -1,9 +1,11 @@
-post_id,slug,search_clicks_28d,program,program_no,a8mat,partnership_block,wid,format,position,impression_tag,note
-81,/it-tensyoku-agent-osusume/,0,Geekly,16183,4AXJKA+EZEQUQ+3GVA+61JSH,260225866,001,バナー728x90（カスタムHTML）,見出しの直後（どの見出しかは要確認）,あり（svt/bgt と 0.gif）,
-787,/uzuz-hyouban-jinji/,0,UZUZ（推定）,14490,45BOB5+9Z0EK2+33T0+C6J1E,250807505,001,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし,提携中の3案件に入っていない
-814,/geekly-hyouban/,1,Geekly,16183,4AXJKA+EZEQUQ+3GVA+66WOY,260225866,001,SWELLボタン（赤）,要確認,あり（ボタンの計測用画像欄）,
-814,/geekly-hyouban/,1,Geekly,16183,（81と同じバナーコード）,260225866,001,バナー728x90,要確認,あり（svt/bgt）,
-835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001,テキストリンク（段落内）,要確認,なしの疑い,提携状況は要確認
-835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVNAP,260225866,001,バナー300x250（カスタムHTML）,要確認,あり（svt/bgt と 0.gif）,
-892,/levtech-career-reputation/,6,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし（2026-10-11に作業メモで削除を確認）,作業メモは削除済み
-892,/levtech-career-reputation/,6,レバテックダイレクト,11866,4B1ILL+786GWQ+2JK4+4SNXSE,260411241,002,計測用画像は確認済み。リンク本体は未確認,要確認,あり（aria-hidden の 0.gif）,このコードだけ wid=002
+post_id,slug,search_clicks_28d,program,program_no,a8mat,partnership_block,wid(002=採用のウラ側),format,position,impression_tag,note
+81,/it-tensyoku-agent-osusume/,0,Geekly,16183,4AXJKA+EZEQUQ+3GVA+61JSH,260225866,001（別サイト）,バナー728x90（カスタムHTML）,見出しの直後（どの見出しかは要確認）,あり（svt/bgt と 0.gif）,
+787,/uzuz-hyouban-jinji/,0,UZUZ（推定）,14490,45BOB5+9Z0EK2+33T0+C6J1E,250807505,001（別サイト）,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし,提携中の3案件に入っていない
+814,/geekly-hyouban/,1,Geekly,16183,4AXJKA+EZEQUQ+3GVA+66WOY,260225866,001（別サイト）,SWELLボタン（赤）,要確認,あり（ボタンの計測用画像欄）,
+814,/geekly-hyouban/,1,Geekly,16183,（81と同じバナーコード）,260225866,001（別サイト）,バナー728x90,要確認,あり（svt/bgt）,
+835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001（別サイト）,テキストリンク（段落内）,要確認,なしの疑い,提携状況は要確認
+835,/techgo-hyouban-jinji/,0,TechGO,24757,4AXJKA+F171O2+5B0Y+HVNAP,260225866,001（別サイト）,バナー300x250（カスタムHTML）,要確認,あり（svt/bgt と 0.gif）,
+892,/levtech-career-reputation/,6,TechGO,24757,4AXJKA+F171O2+5B0Y+HVFKY,260225866,001（別サイト）,画像リンク（画像は saiyo-ura.com に保存したもの）,要確認,なし（2026-10-11に作業メモで削除を確認）,作業メモは削除済み
+892,/levtech-career-reputation/,6,レバテックダイレクト,11866,4B1ILL+786GWQ+2JK4+4SNXSE,260411241,002（正しい）,計測用画像は確認済み。リンク本体は未確認,要確認,あり（aria-hidden の 0.gif）,このコードだけ wid=002
+2915,/type-agent-reputation/,,type転職エージェント（もしも）,p_id=7540,a_id=5719409,,,SWELLボタン（クリック用URLのみ）,要確認,なしの疑い（もしもの表示計測用画像が見当たらない）,もしも
+2949,/type-woman-agent-reputation/,,type女性の転職エージェント（もしも）,p_id=7541,a_id=5719410,,,SWELLボタン（クリック用URLのみ）,要確認,なしの疑い（もしもの表示計測用画像が見当たらない）,もしも
