@@ -268,7 +268,7 @@
     </div>
     <div class="saiyo-cta__row">
       <div class="saiyo-cta__name">
-        <a class="saiyo-cta__name-link" href="【ここを、A8で「採用のウラ側」を選んで発行したTechGoのクリック用URLに置き換える】" rel="nofollow sponsored">
+        <a class="saiyo-cta__name-link" href="https://px.a8.net/svt/ejp?a8mat=4AXJKA+F172FU+5B0Y+HVFKY" rel="nofollow sponsored">
           <div class="saiyo-cta__logo--text">テックゴー<br>（TechGo）</div>
           <div class="saiyo-cta__name-text">エージェント型</div>
         </a>
@@ -282,8 +282,8 @@
         ✓ ITコンサル・メガベンチャーなど高年収のポジションを扱う
       </div>
       <div class="saiyo-cta__btn-cell">
-        <a class="saiyo-cta__btn" href="【ここを、A8で「採用のウラ側」を選んで発行したTechGoのクリック用URLに置き換える】" rel="nofollow sponsored">無料で相談する ›<small>入力は数分で完了</small></a>
-        <!-- ここに、A8で発行したTechGoのコードの 0.gif の img の行をそのまま貼る -->
+        <a class="saiyo-cta__btn" href="https://px.a8.net/svt/ejp?a8mat=4AXJKA+F172FU+5B0Y+HVFKY" rel="nofollow sponsored">無料で相談する ›<small>入力は数分で完了</small></a>
+        <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4AXJKA+F172FU+5B0Y+HVFKY" alt="">
       </div>
     </div>
   </div>
@@ -293,7 +293,7 @@
 ```
 
 テックゴーの行は、**A8版に切り替え済み**（2026-10-12 運営者判断。A8 18,000円＞もしも 14,000円）。
-- リンク2か所と計測用画像1行は、A8で「採用のウラ側」を選んで発行したものに置き換える。差し込み枠を埋めないまま公開しない。
+- リンク2か所と計測用画像1行は、2026-10-12 に運営者がA8で発行したコードを入れた（a8mat=4AXJKA+F172FU+5B0Y+HVFKY。F172FU はサイト002＝採用のウラ側、5B0Y は TechGO）。2種類の素材のうち、文言が「TechGO（テックゴー）」だけのもの（HVFKY・www14）を使い、リンクの文字はボタンの文言にした。
 - ロゴは、もしもの素材画像（image.moshimo.com）をA8のリンクと組み合わせるわけにいかないので、ほかの行と同じ文字のロゴにした。A8の素材のバナーを使う場合は、発行したコードをそのまま使う。
 - もしものリンクと計測用画像（i.moshimo.com）は、このパックから外れる。もしもの TechGO の提携は、ほかに使っている場所がなければそのままでよい。
 - 2026-10-12 A8 の TechGo のプログラム詳細と照らし合わせて、文言を直した。
@@ -525,5 +525,5 @@ JAC（VCで発行したコード。「自由テキスト」の部分を「JACリ
 4. ~~Geekly を今回使わない判断でよいか~~（2026-10-12 運営者了承：使わない）
 5. 1489 のIT企画職がレバテックダイレクトの対象になるか、A8の問い合わせ窓口で確認するか。
 6. 学習系の案件（②-2）。2026-10-12 運営者了承：届くまでは、学習系の箇所に「添える一文」だけを入れる（リンクは入れない）。一文は、それだけで読んで意味が通る文にしてある。
-7. A8で TechGo を「採用のウラ側」で発行済み（2026-10-12 運営者）。**コード（リンクURLと0.gifの行）を受け取り、パックAの差し込み枠に入れる**。あわせて、A8のプログラム詳細（成果条件・否認条件・再訪問期間・PR文）を共有してもらい、パックの文言と照らし合わせる。
+7. ~~A8で TechGo を発行し、パックAに入れる~~（2026-10-12 完了。サイト002を確認済み）あわせて、A8のプログラム詳細（成果条件・否認条件・再訪問期間・PR文）を共有してもらい、パックの文言と照らし合わせる。
 8. レバテックキャリア（VC・11,000円）は、レバテックダイレクトと同じ会社で、先に登録したほうしか成果にならない。上位10記事では使わない（892 の評判記事など、レバテックキャリアそのものを扱う記事で使う）。
