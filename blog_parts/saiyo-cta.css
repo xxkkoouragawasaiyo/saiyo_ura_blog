@@ -21,7 +21,7 @@
 .saiyo-cta__row--head > div::after{content:"▼";display:block;font-size:9px;color:#999;}
 /* ロゴ列 */
 .saiyo-cta__logo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;}
-.saiyo-cta__logo img{display:block;max-width:150px;width:100%;height:auto;}
+.saiyo-cta__logo img{display:block;width:auto;max-width:min(150px,100%);height:auto;}  /* 小さい素材（100×100等）を引き伸ばさない */
 .saiyo-cta__logo a.saiyo-cta__name{font-size:13px;font-weight:700;color:#1a73c8 !important;text-decoration:underline !important;}
 .saiyo-cta__type{display:inline-block;padding:0 8px;border-radius:3px;background:var(--cta-sub-bg);font-size:11px;color:#666;}
 /* ポイント列 */
@@ -44,6 +44,6 @@
   .saiyo-cta__row > div{padding:14px 10px;}
   .saiyo-cta__btn-cell{grid-column:1 / -1;border-left:0 !important;padding-top:0 !important;}
   .saiyo-cta a.saiyo-cta__btn{max-width:320px;padding:14px 8px;font-size:15px;}
-  .saiyo-cta__logo img{max-width:110px;}
+  .saiyo-cta__logo img{max-width:min(110px,100%);}
   .saiyo-cta__catch{font-size:14px;}
 }
