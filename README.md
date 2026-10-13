@@ -62,3 +62,14 @@ python3 scripts/build_excel_report.py   # reports/excel/saiyo-ura_改善レポ�
 - 記事のテーマ・競合グループ・推奨案件・関連クエリの判定パターンは `data/articles/article_master.csv` で管理する（記事を追加したら1行追加）。
 - 人が判断した所見（記事別の修正点・競合グループの判定・良い点/悪い点・方向性）は `scripts/report_notes_<日付>.py` に書く。
 - 生成後、LibreOffice等で数式を再計算してから開くと、取りこぼし見込みなどの値が表示される（Excelでは開いた時に自動で再計算される）。
+
+## 効果測定（KPI）
+
+```sh
+# GSC・VC の日別を data/affiliate/kpi_daily.csv に取り込む（A8・もしもは手で記入）
+python3 scripts/kpi_daily.py merge --gsc data/gsc/<取得日>/<期間>/daily.csv --vc data/affiliate/<取得日>/valuecommerce_daily_*.csv --until <前日>
+# 期間を指定して指標①〜⑤を計算
+python3 scripts/kpi_daily.py calc --from 2026-09-01 --to 2026-10-13
+```
+
+指標の定義と成功の基準は `reports/affiliate/2026-10-12/step4_rules_and_kpi.md`。A8・もしもは必ずサイト「採用のウラ側」で絞り込んだレポートを使う。
