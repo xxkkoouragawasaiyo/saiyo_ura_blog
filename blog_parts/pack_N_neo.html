@@ -1,29 +1,71 @@
 <!-- 採用のウラ側 / パックN_20代（neo）／使用記事：1790 -->
-<!-- 貼り方：ブログパーツで「カスタムHTML」ブロックを追加し、この中身を丸ごと貼る。<style>は入れない（CSSは追加CSSの saiyo-cta.css を共用）。 -->
-<!-- 1社だけなので、比較表の見出し行（サービス／ポイント／公式サイト）は付けない。 -->
-<!-- 【】の箇所は、A8管理画面の素材コードから写す。計測用の1×1画像は消さない。 -->
+<!-- CSSはパックDと同一。1社なので見出し行（サービス名／特徴・対象…）は外している。【】はA8の素材コード・公式表記で埋める -->
+<style>
+.saiyo-cta{background:#f5f5f0;border-radius:12px;padding:20px 16px;font-family:sans-serif;color:#3d3d3d;max-width:100%;box-sizing:border-box;margin:28px 0;}
+.saiyo-cta *{box-sizing:border-box}
+.saiyo-cta__badge-wrap{text-align:center;margin-bottom:8px;}
+.saiyo-cta__badge{display:inline-block;background:#e8b44a;color:#3d3d3d;font-size:13px;font-weight:700;padding:6px 14px;border-radius:20px;}
+.saiyo-cta__title{text-align:center;font-size:17px;font-weight:700;margin:8px 0 6px;line-height:1.6;}
+.saiyo-cta__lead{text-align:center;font-size:12.5px;color:#77776e;margin:0 0 16px;line-height:1.7;}
+.saiyo-cta__panel{background:#fff;border-radius:8px;overflow:hidden;border:1px solid #e0e0d8;}
+.saiyo-cta__header-row{display:grid;grid-template-columns:22% 20% 38% 20%;background:#f0f0e8;padding:10px 8px;font-size:12px;font-weight:700;text-align:center;border-bottom:1px solid #e0e0d8;}
+.saiyo-cta__row{display:grid;grid-template-columns:22% 20% 38% 20%;padding:18px 8px;border-bottom:1px solid #e0e0d8;align-items:center;position:relative;}
+.saiyo-cta__row:last-child{border-bottom:none;}
+.saiyo-cta__row--best{background:#fdfaf1;}
+.saiyo-cta__rank{position:absolute;top:0;left:0;background:#e8b44a;color:#3d3d3d;font-size:11px;font-weight:700;padding:3px 10px;border-radius:0 0 6px 0;}
+.saiyo-cta__name{text-align:center;}
+.saiyo-cta__name-link{display:block;color:inherit;text-decoration:none;transition:opacity .2s;}
+.saiyo-cta__name-link:hover{opacity:.85;color:inherit;}
+.saiyo-cta__logo{display:block;margin:0 auto 6px;max-width:100%;height:auto;border:none;}
+.saiyo-cta__logo--text{display:flex;align-items:center;justify-content:center;width:100px;height:60px;margin:0 auto 6px;background:#f0f0e8;border:1px solid #e0e0d8;border-radius:4px;font-size:12px;font-weight:700;line-height:1.35;color:#3d3d3d;text-align:center;}
+.saiyo-cta__name-text{font-size:13px;font-weight:700;}
+.saiyo-cta__count{text-align:center;color:#c94444;font-weight:700;font-size:14px;line-height:1.4;}
+.saiyo-cta__count-sub{font-size:10.5px;color:#888;font-weight:400;display:block;margin-top:4px;line-height:1.5;}
+.saiyo-cta__target{display:block;margin-top:6px;font-size:10.5px;color:#66665e;font-weight:400;background:#f0f0e8;border-radius:3px;padding:4px 5px;line-height:1.5;}
+.saiyo-cta__point{font-size:12px;padding:0 8px;line-height:1.7;}
+.saiyo-cta__point-title{color:#c94444;font-weight:700;margin-bottom:4px;}
+.saiyo-cta__hr{background:#f7f4ea;border-left:3px solid #e8b44a;padding:7px 9px;margin:0 0 6px;border-radius:0 3px 3px 0;font-size:12px;line-height:1.65;color:#4a4a42;}
+.saiyo-cta__btn-cell{text-align:center;}
+.saiyo-cta__btn{display:inline-block;background:#6baa95;color:#fff !important;padding:11px 14px;text-decoration:none;border-radius:4px;font-size:13px;font-weight:700;transition:opacity .2s;line-height:1.35;}
+.saiyo-cta__btn:hover{opacity:.85;color:#fff !important;}
+.saiyo-cta__btn small{display:block;font-size:10px;font-weight:400;opacity:.92;margin-top:3px;}
+.saiyo-cta__footer{text-align:center;font-size:11px;color:#8a8a82;margin:12px 2px 0;line-height:1.7;}
+@media (max-width:600px){
+.saiyo-cta__header-row{display:none;}
+.saiyo-cta__row{grid-template-columns:1fr;gap:12px;padding:26px 14px 18px;text-align:center;}
+.saiyo-cta__name-text{font-size:15px;}
+.saiyo-cta__logo--text{width:120px;height:66px;font-size:13px;}
+.saiyo-cta__point{padding:0;text-align:left;}
+.saiyo-cta__btn{padding:14px 20px;font-size:14.5px;width:100%;max-width:320px;}
+}
+</style>
+
 <div class="saiyo-cta">
-<div class="saiyo-cta__header">
-<span class="saiyo-cta__badge">登録・相談は無料</span>
-<p class="saiyo-cta__title">【要調整：記事1790の結論に合わせた一言】</p>
-<p class="saiyo-cta__sub">【要調整：例「職歴に自信がない段階でも、相談から始められます。」】</p>
-</div>
-<!-- ▼ 第二新卒エージェントneo -->
-<div class="saiyo-cta__row">
-<div class="saiyo-cta__logo">
-<a href="【neo_バナー素材のリンクURL】" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade"><img border="0" width="【幅】" height="【高さ】" alt="第二新卒エージェントneo" src="【neo_バナー素材の画像URL】"></a>
-<a class="saiyo-cta__name" href="【neo_テキスト素材のリンクURL】" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">第二新卒エージェントneo</a>
-<span class="saiyo-cta__type">エージェント型</span>
-</div>
-<div class="saiyo-cta__point">
-<p class="saiyo-cta__catch">第二新卒・既卒・フリーター・中退・高卒の就職・転職支援</p>
-<p class="saiyo-cta__desc">【要確認：対象年齢・サポート内容を公式サイトの表記で1文】</p>
-<p class="saiyo-cta__comment"><strong>人事の目線：</strong>【要記入：運営者の見解を1〜2文】</p>
-</div>
-<div class="saiyo-cta__btn-cell"><a class="saiyo-cta__btn" href="【neo_テキスト素材のリンクURL】" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">無料で相談する ›</a></div>
-<!-- 計測用：neo（A8）。バナー素材とテキスト素材の1×1をそれぞれ1回だけ置く（テキストはサービス名とボタンで共用）。 -->
-<img border="0" width="1" height="1" src="【neo_バナー素材の計測用画像URL（0.gif）】" alt="">
-<img border="0" width="1" height="1" src="【neo_テキスト素材の計測用画像URL（0.gif）】" alt="">
-</div>
-<p class="saiyo-cta__note">スマートフォンでご覧の方は、そのままこの端末で登録を完了してください（別の端末やブラウザに移ると正しく処理されない場合があります）。対象条件は公式サイトの表記に基づきます。</p>
+  <div class="saiyo-cta__badge-wrap"><span class="saiyo-cta__badge">登録・相談はすべて無料です</span></div>
+  <p class="saiyo-cta__title">【要調整：記事1790の結論に合わせた一言】</p>
+  <p class="saiyo-cta__lead">【要調整：例「職歴に自信がない段階でも、相談から始められます。」】</p>
+  <div class="saiyo-cta__panel">
+    <div class="saiyo-cta__row">
+      <div class="saiyo-cta__name">
+        <a class="saiyo-cta__name-link" href="【neo_バナー素材のリンクURL】" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">
+          <img class="saiyo-cta__logo" src="【neo_バナー素材の画像URL】" width="【幅】" height="【高さ】" alt="第二新卒エージェントneo" border="0">
+          <div class="saiyo-cta__name-text">第二新卒<br>エージェントneo</div>
+        </a>
+      </div>
+      <div class="saiyo-cta__count">【要確認：対象年齢など】<span class="saiyo-cta__target">第二新卒・既卒・フリーター<br>中退・高卒の就職・転職支援</span></div>
+      <div class="saiyo-cta__point">
+        <div class="saiyo-cta__hr"><b>人事コメント：</b>【要記入：運営者の見解を1〜2文】</div>
+        <div class="saiyo-cta__point-title">【要確認：見出し】</div>
+        ✓ 【要確認：公式サイトの表記で】<br>
+        ✓ 【要確認】<br>
+        ✓ 【要確認】
+      </div>
+      <div class="saiyo-cta__btn-cell">
+        <a class="saiyo-cta__btn" href="【neo_テキスト素材のリンクURL】" rel="nofollow sponsored" referrerpolicy="no-referrer-when-downgrade">無料で相談する ›<small>この端末のまま完了を</small></a>
+      </div>
+      <!-- 計測用：neo（A8）のバナー素材・テキスト素材の0.gifを1回ずつ -->
+      <div style="position:absolute;width:1px;height:1px;overflow:hidden;left:0;top:0;" aria-hidden="true"><img border="0" width="1" height="1" src="【neo_バナー素材の0.gif】" alt=""><img border="0" width="1" height="1" src="【neo_テキスト素材の0.gif】" alt=""></div>
+    </div>
+  </div>
+  <p class="saiyo-cta__footer">スマートフォンでご覧の方は、そのままこの端末で登録を完了してください（別の端末やブラウザに移ると正しく処理されない場合があります）。<br>対象条件は公式サイトの表記に基づきます。</p>
 </div>
