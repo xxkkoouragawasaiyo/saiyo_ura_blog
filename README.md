@@ -13,6 +13,7 @@ reports/gsc/<取得日>/insights.md        所見と打ち手（手書き）
 reports/gsc/<取得日>/*.csv              施策候補リスト
 reports/strategy/                      記事別アクションプラン
 data/affiliate/<取得日>/                ASPレポート（A8.net / もしも / バリューコマース、UTF-8変換済み）
+data/affiliate/conversion_log.csv       成果の発生記録（1件1行。承認・否認で更新）
 scripts/                               取込・分析スクリプト
 ```
 
