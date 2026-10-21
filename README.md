@@ -13,6 +13,8 @@ reports/gsc/<取得日>/insights.md        所見と打ち手（手書き）
 reports/gsc/<取得日>/*.csv              施策候補リスト
 reports/strategy/                      記事別アクションプラン
 data/affiliate/<取得日>/                ASPレポート（A8.net / もしも / バリューコマース、UTF-8変換済み）
+data/affiliate/a8_link_map.csv         A8テキストリンクの a8mat → プログラムID 対応表
+reports/affiliate/<日付>/               A8広告掲載URLの提出リスト
 scripts/                               取込・分析スクリプト
 ```
 
@@ -52,6 +54,14 @@ scripts/                               取込・分析スクリプト
 iconv -f CP932 -t UTF-8 元ファイル.csv > data/affiliate/<取得日>/<asp>_<内容>.csv
 ```
 氏名などの個人情報を含む列は、コミット前に削除すること。
+
+### A8.net 広告掲載URLの提出
+
+A8の「広告掲載URL管理」に提出するURLを、公開中の記事HTMLから洗い出す（サイトにアクセスできるPCで実行）。
+```sh
+python3 scripts/a8_link_audit.py   # reports/affiliate/<実行日>/a8_submit_<プログラムID>.txt を作成
+```
+テキストリンクのプログラムを判定できなかった場合は `a8_unmapped.csv` が出るので、`data/affiliate/a8_link_map.csv` に `a8mat,program_id,memo` で追記して再実行する。手順の詳細は `reports/affiliate/2026-10-21/a8_url_submission.md`。
 
 ## Excelレポート
 
