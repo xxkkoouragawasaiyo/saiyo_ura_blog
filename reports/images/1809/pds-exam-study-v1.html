@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/500.css">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/900.css">
+<style>
+  :root {
+    --green: #5f9e86;
+    --green-dark: #3f7d66;
+    --green-pale: #e9f3ee;
+    --gold: #e2b23a;
+    --gold-dark: #a07a17;
+    --gold-pale: #fbf3dd;
+    --ink: #3a3a3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1376px; height: 768px; background: #fbfbf8; }
+  body { font-family: "Zen Maru Gothic", sans-serif; color: var(--ink); }
+  .frame { position: absolute; inset: 22px 26px; border: 7px solid var(--green); background: #fff; }
+  h1 {
+    position: absolute; top: 40px; width: 100%; text-align: center;
+    font-size: 46px; font-weight: 900; letter-spacing: 0.02em;
+  }
+  h1 .accent { color: var(--green-dark); }
+  .band {
+    position: absolute; top: 112px; left: 50%; transform: translateX(-50%);
+    background: var(--green); color: #fff; font-weight: 700; font-size: 25px;
+    padding: 8px 44px 9px; border-bottom: 5px solid var(--gold); white-space: nowrap;
+  }
+  .col-title { font-size: 24px; font-weight: 900; color: var(--green-dark); }
+  .col-title small { font-size: 17px; font-weight: 700; color: #888; margin-left: 8px; }
+
+  .left { position: absolute; top: 186px; left: 58px; width: 452px; }
+  .nobook {
+    display: flex; align-items: center; gap: 14px;
+    background: #f1f2f1; border: 3px dashed #c4c9c6; border-radius: 12px; padding: 12px 16px;
+  }
+  .nobook .x {
+    flex: none; width: 46px; height: 46px; border-radius: 50%; background: #b9c0bc; color: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 900;
+  }
+  .nobook b { display: block; font-size: 22px; font-weight: 900; }
+  .nobook span { display: block; margin-top: 2px; font-size: 16px; font-weight: 700; color: #777; }
+  .left .col-title { margin-top: 22px; }
+  .docs { margin-top: 10px; display: grid; gap: 10px; }
+  .doc {
+    background: var(--green-pale); border: 2px solid #cfe5da; border-left: 8px solid var(--green);
+    border-radius: 8px; padding: 10px 14px 11px;
+  }
+  .doc b { display: block; font-size: 21px; font-weight: 900; color: var(--green-dark); }
+  .doc span { display: block; margin-top: 3px; font-size: 17px; font-weight: 700; line-height: 1.45; }
+  .doc em { font-style: normal; color: var(--gold-dark); }
+
+  .right { position: absolute; top: 186px; left: 548px; width: 770px; }
+  .steps { margin-top: 10px; display: grid; gap: 12px; }
+  .step {
+    position: relative; background: #fff; border: 2px solid #cfe5da; border-radius: 10px;
+    padding: 12px 16px 13px 92px;
+  }
+  .step .n {
+    position: absolute; left: 14px; top: 12px; width: 62px; text-align: center;
+    background: var(--gold); color: #fff; border-radius: 6px; padding: 4px 0 5px;
+    font-size: 15px; font-weight: 900; line-height: 1.1;
+  }
+  .step .n b { display: block; font-size: 26px; }
+  .step .t { font-size: 22px; font-weight: 900; }
+  .chips { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips span {
+    background: var(--green-pale); color: var(--green-dark); border-radius: 999px;
+    padding: 3px 12px 4px; font-size: 16px; font-weight: 700;
+  }
+  .areas { margin-top: 8px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .areas div { background: var(--green-pale); border-radius: 8px; padding: 7px 10px 8px; }
+  .areas b { display: block; font-size: 17px; font-weight: 900; color: var(--green-dark); }
+  .areas span { display: block; margin-top: 2px; font-size: 15px; font-weight: 700; line-height: 1.4; }
+  .step .d { margin-top: 6px; font-size: 17px; font-weight: 700; color: #555; line-height: 1.5; }
+
+  .foot {
+    position: absolute; bottom: 36px; width: 100%; text-align: center;
+    font-size: 15px; font-weight: 500; color: #8a8a8a;
+  }
+</style>
+</head>
+<body>
+  <div class="frame"></div>
+  <h1>参考書と勉強方法 <span class="accent">今からできること</span></h1>
+  <div class="band">専用の参考書はまだない。IPAの無料資料で準備する</div>
+
+  <div class="left">
+    <div class="nobook">
+      <div class="x">×</div>
+      <div><b>専用の参考書・問題集はまだない</b><span>シラバスがまだ案の段階のため<br>（2026年10月24日時点）</span></div>
+    </div>
+    <div class="col-title">今使える無料の資料<small>IPA</small></div>
+    <div class="docs">
+      <div class="doc"><b>シラバス案</b><span>マネジメント・システム：Ver.0.2<br>科目A-1（共通知識）：Ver.0.1<br><em>データ・AIは準備中</em></span></div>
+      <div class="doc"><b>サンプル問題</b><span>マネジメント・システムの科目B</span></div>
+      <div class="doc"><b>出題範囲の改定案 Ver.1.0</b><span>データ・AIの出題範囲は、今はここで確認</span></div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="col-title">今からできる勉強方法</div>
+    <div class="steps">
+      <div class="step">
+        <div class="n">STEP<b>1</b></div>
+        <div class="t">共通知識（科目A-1）を固める</div>
+        <div class="chips">
+          <span>ビジネス変革</span><span>データ・AIの利活用</span><span>組織活動</span><span>デジタル技術</span>
+          <span>システムの開発・運用</span><span>セキュリティ</span><span>倫理・コンプライアンス</span>
+        </div>
+      </div>
+      <div class="step">
+        <div class="n">STEP<b>2</b></div>
+        <div class="t">受ける領域の基礎を先取りする</div>
+        <div class="areas">
+          <div><b>マネジメント</b><span>プロジェクト管理<br>ITサービスマネジメント<br>内部統制</span></div>
+          <div><b>データ・AI</b><span>SQL<br>データモデリング<br>機械学習</span></div>
+          <div><b>システム</b><span>システムアーキテクチャ<br>ネットワーク<br>組込み（IoT）</span></div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="n">STEP<b>3</b></div>
+        <div class="t">シラバス案とサンプル問題で、範囲と問題の形をつかむ</div>
+        <div class="d">データ・AIは準備中のため、改定案Ver.1.0の出題範囲で確認</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">出典：IPA「新試験制度のシラバス案について」「新試験制度のサンプル問題について」「出題範囲等の改定案Ver.1.0」。2026年10月24日時点</div>
+</body>
+</html>
