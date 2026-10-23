@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/500.css">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/zen-maru-gothic/900.css">
+<style>
+  :root {
+    --green: #5f9e86;
+    --green-dark: #3f7d66;
+    --green-pale: #e9f3ee;
+    --gold: #e2b23a;
+    --ink: #3a3a3a;
+    --gray: #a3aaa6;
+    --gray-pale: #eceeec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1376px; height: 768px; background: #fbfbf8; }
+  body { font-family: "Zen Maru Gothic", sans-serif; color: var(--ink); }
+  .frame {
+    position: absolute; inset: 22px 26px;
+    border: 7px solid var(--green); background: #fff;
+  }
+  h1 {
+    position: absolute; top: 34px; width: 100%; text-align: center;
+    font-size: 50px; font-weight: 900; letter-spacing: 0.02em;
+  }
+  h1 .accent { color: var(--green-dark); }
+  .band {
+    position: absolute; top: 112px; left: 50%; transform: translateX(-50%);
+    background: var(--green); color: #fff; font-weight: 700; font-size: 26px;
+    padding: 9px 48px 10px; border-bottom: 5px solid var(--gold); white-space: nowrap;
+  }
+  .left {
+    position: absolute; top: 186px; left: 54px; width: 520px; height: 238px;
+    border: 3px dashed #c4c9c6; border-radius: 12px; background: #f6f7f6;
+  }
+  .ap {
+    position: absolute; top: 18px; left: 22px; right: 22px; height: 44px;
+    background: #b9c0bc; color: #fff; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 21px;
+  }
+  .pillars {
+    position: absolute; top: 72px; left: 22px; right: 22px; height: 104px;
+    display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px;
+  }
+  .pillars div {
+    background: var(--gray); color: #fff; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 22px; letter-spacing: 0.04em;
+  }
+  .left .cap {
+    position: absolute; bottom: 14px; width: 100%; text-align: center;
+    font-weight: 700; font-size: 20px; color: #555;
+  }
+  .left-note {
+    position: absolute; top: 432px; left: 54px; width: 520px; text-align: center;
+    font-size: 17px; font-weight: 700; color: #6b6b6b;
+  }
+  .arrow {
+    position: absolute; top: 287px; left: 600px; width: 150px; height: 36px;
+  }
+  .right {
+    position: absolute; top: 186px; left: 776px; width: 520px; height: 238px;
+    border: 3px solid #b9d8ca; border-radius: 12px; background: var(--green-pale);
+  }
+  .tiles {
+    position: absolute; top: 44px; left: 20px; right: 20px; height: 100px;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+  }
+  .tiles div {
+    background: var(--green); color: #fff; border-top: 7px solid var(--gold); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 23px;
+  }
+  .right .cap {
+    position: absolute; bottom: 38px; width: 100%; text-align: center;
+    font-weight: 700; font-size: 23px; color: var(--green-dark);
+  }
+  .line {
+    position: absolute; top: 500px; left: 100px; width: 1140px; height: 10px;
+    background: var(--green); border-radius: 5px;
+  }
+  .line::after {
+    content: ""; position: absolute; right: -34px; top: -17px;
+    border-left: 40px solid var(--green); border-top: 22px solid transparent; border-bottom: 22px solid transparent;
+  }
+  .dot {
+    position: absolute; top: 482px; width: 46px; height: 46px; border-radius: 50%;
+    background: #fff; border: 5px solid var(--green);
+  }
+  .dot::after {
+    content: ""; position: absolute; inset: 6px; border-radius: 50%; background: var(--gold);
+  }
+  .year {
+    position: absolute; top: 540px; text-align: center; width: 600px;
+  }
+  .year b { display: block; font-size: 34px; font-weight: 900; color: var(--green-dark); }
+  .year span { display: block; margin-top: 6px; font-size: 20px; font-weight: 700; line-height: 1.5; }
+  .foot {
+    position: absolute; bottom: 36px; width: 100%; text-align: center;
+    font-size: 15px; font-weight: 500; color: #8a8a8a;
+  }
+</style>
+</head>
+<body>
+  <div class="frame"></div>
+  <h1>情報処理技術者試験 <span class="accent">2009年度以来の大改訂</span></h1>
+  <div class="band">「専門分野」から「役割」で選ぶ試験へ</div>
+
+  <div class="left">
+    <div class="ap">応用情報</div>
+    <div class="pillars">
+      <div>ST</div><div>SA</div><div>PM</div><div>NW</div>
+      <div>DB</div><div>ES</div><div>SM</div><div>AU</div>
+    </div>
+    <div class="cap">高度試験8区分（専門分野ごとの縦割り）</div>
+  </div>
+  <div class="left-note">※基本情報・ITパスポートなどは対象外（引き続き実施）</div>
+
+  <svg class="arrow" viewBox="0 0 150 36">
+    <rect x="0" y="13" width="118" height="10" rx="5" fill="#e2b23a"/>
+    <polygon points="112,0 150,18 112,36" fill="#e2b23a"/>
+  </svg>
+
+  <div class="right">
+    <div class="tiles"><div>マネジメント</div><div>データ・AI</div><div>システム</div></div>
+    <div class="cap">役割で選ぶ3領域</div>
+  </div>
+
+  <div class="line"></div>
+  <div class="dot" style="left: 291px"></div>
+  <div class="dot" style="left: 1013px"></div>
+  <div class="year" style="left: 14px"><b>2009年度</b><span>現行の試験区分がスタート</span></div>
+  <div class="year" style="left: 736px"><b>2027年度</b><span>応用情報と高度試験を再編し<br>プロフェッショナルデジタルスキル試験<br>（仮称）がスタート予定</span></div>
+
+  <div class="foot">※2026年10月時点の公表内容。試験名は仮称</div>
+</body>
+</html>
