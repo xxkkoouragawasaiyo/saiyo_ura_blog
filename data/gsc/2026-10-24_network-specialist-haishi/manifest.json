@@ -1,0 +1,62 @@
+{
+  "last28d": {
+    "date_from": "2026-09-24",
+    "date_to": "2026-10-21",
+    "page_filter": "https://saiyo-ura.com/network-specialist-haishi/",
+    "period": "last28d",
+    "period_label": "過去 28 日間",
+    "rows": {
+      "appearance": 0,
+      "countries": 4,
+      "daily": 28,
+      "devices": 3,
+      "pages": 1,
+      "queries": 154
+    },
+    "search_type": "ウェブ（テキストベース）",
+    "snapshot": "2026-10-24_network-specialist-haishi",
+    "source": "57bd4b1c-saiyo-ura.com-Performance-on-Search-2026-10-24_1.zip",
+    "total_clicks": 157,
+    "total_impressions": 3498
+  },
+  "last3m": {
+    "date_from": "2026-07-22",
+    "date_to": "2026-10-21",
+    "page_filter": "https://saiyo-ura.com/network-specialist-haishi/",
+    "period": "last3m",
+    "period_label": "過去 3 か月間",
+    "rows": {
+      "appearance": 0,
+      "countries": 13,
+      "daily": 92,
+      "devices": 3,
+      "pages": 1,
+      "queries": 207
+    },
+    "search_type": "ウェブ（テキストベース）",
+    "snapshot": "2026-10-24_network-specialist-haishi",
+    "source": "4f1b128a-saiyo-ura.com-Performance-on-Search-2026-10-24_2.zip",
+    "total_clicks": 341,
+    "total_impressions": 8630
+  },
+  "last7d": {
+    "date_from": "2026-10-15",
+    "date_to": "2026-10-21",
+    "page_filter": "https://saiyo-ura.com/network-specialist-haishi/",
+    "period": "last7d",
+    "period_label": "過去 7 日間",
+    "rows": {
+      "appearance": 0,
+      "countries": 2,
+      "daily": 7,
+      "devices": 3,
+      "pages": 1,
+      "queries": 82
+    },
+    "search_type": "ウェブ（テキストベース）",
+    "snapshot": "2026-10-24_network-specialist-haishi",
+    "source": "f43f5cfd-saiyo-ura.com-Performance-on-Search-2026-10-24.zip",
+    "total_clicks": 37,
+    "total_impressions": 1221
+  }
+}

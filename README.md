@@ -28,6 +28,8 @@ scripts/                               取込・分析スクリプト
    ```sh
    python3 scripts/gsc_import.py ~/Downloads/saiyo-ura.com-Performance-on-Search-*.zip
    ```
+   - **ページで絞り込んだエクスポート**（記事リライト用）は、サイト全体のデータと混ざらないよう `--snapshot <取得日>_<記事スラッグ>` で別フォルダに取り込む（例: `--snapshot 2026-10-24_network-specialist-haishi`）。分析レポートの「最新の取得日」は日付だけの名前のフォルダから選ばれるので、この別フォルダは対象にならない。
+   - ページ絞り込み時は、クエリ別・デバイス別・国別の表に匿名化クエリ分が入らない。ページ全体の合計は日別（`daily.csv`）の合計を使う（`manifest.json` の `total_*` も日別から計算）。
 3. 分析レポート生成（最新の取得日が対象。`--snapshot 2026-10-10` で指定も可）
    ```sh
    pip install -r requirements.txt

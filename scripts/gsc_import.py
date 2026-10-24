@@ -103,17 +103,19 @@ def import_zip(path: Path, snapshot: str | None) -> dict:
     raw_dir.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(path, raw_dir / f"{period}.zip")
 
-    devices = tables.get("devices", [])
     return {
         "snapshot": snapshot,
         "period": period,
         "period_label": filters.get("日付"),
         "search_type": filters.get("検索タイプ"),
+        # ページで絞り込んだエクスポートは --snapshot <日付>_<記事スラッグ> で別フォルダに取り込む
+        "page_filter": filters.get("ページ"),
         "date_from": daily[0]["date"] if daily else None,
         "date_to": daily[-1]["date"] if daily else None,
-        # デバイス別の合計がサイト全体の合計（クエリ別は匿名化分が欠けるため使わない）
-        "total_clicks": sum(d["clicks"] for d in devices),
-        "total_impressions": sum(d["impressions"] for d in devices),
+        # 日別（グラフ）の合計を全体の合計とする。ページ絞り込み時はデバイス別・クエリ別・国別から
+        # 匿名化クエリ分が欠けるため使わない（サイト全体のエクスポートでは日別とデバイス別は一致する）
+        "total_clicks": sum(d["clicks"] for d in daily),
+        "total_impressions": sum(d["impressions"] for d in daily),
         "rows": {k: len(v) for k, v in tables.items()},
         "source": path.name,
     }
