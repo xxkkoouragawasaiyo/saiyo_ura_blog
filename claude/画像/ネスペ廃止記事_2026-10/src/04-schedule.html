@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+.tl{margin-top:40px;position:relative}
+.tl::before{content:"";position:absolute;left:309px;top:30px;bottom:30px;width:6px;background:var(--line);border-radius:3px}
+.row{position:relative;display:flex;align-items:center;min-height:118px}
+.date{flex:none;width:270px;text-align:right;font-size:36px;white-space:nowrap;font-weight:900;color:var(--navy);line-height:1.25}
+.dot{flex:none;width:30px;height:30px;margin:0 32px 0 25px;border-radius:50%;background:#fff;border:7px solid var(--navy);position:relative;z-index:1}
+.ev{flex:1;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 26px;border-radius:16px;background:var(--bg)}
+.ev .m{font-size:40px;font-weight:700}
+.row.done .date,.row.done .ev .m{color:var(--gray)}
+.row.done .dot{border-color:#9aa3ae}
+.row.hl .dot{border-color:var(--orange)}
+.row.hl .ev{background:var(--orange-soft);outline:4px solid var(--orange)}
+.row.hl .ev .m{font-weight:900}
+.row.next .dot{border-style:dashed}
+</style></head><body><div class="canvas">
+<div class="title">ネスペ最後の試験の<em>日程</em></div>
+<div class="sub">2026年度（令和8年度）前期・CBT方式</div>
+<div class="tl">
+  <div class="row done"><div class="date">10/6〜10/24</div><div class="dot"></div><div class="ev"><span class="m">申込</span><span class="chip gray">受付終了</span></div></div>
+  <div class="row"><div class="date">10/17〜10/27</div><div class="dot"></div><div class="ev"><span class="m">科目A-1・A-2</span></div></div>
+  <div class="row"><div class="date">11/11〜11/23</div><div class="dot"></div><div class="ev"><span class="m">科目B-1・B-2</span></div></div>
+  <div class="row"><div class="date">2027年1月頃</div><div class="dot"></div><div class="ev"><span class="m">成績照会</span><span class="chip gray">予定</span></div></div>
+  <div class="row hl"><div class="date">2027年2月頃</div><div class="dot"></div><div class="ev"><span class="m">最後の合格発表</span><span class="chip orange">予定</span></div></div>
+  <div class="row next"><div class="date">2027年度<br>夏〜秋頃</div><div class="dot"></div><div class="ev"><span class="m">新試験が始まる</span><span class="chip gray">予定</span></div></div>
+</div>
+<div class="footer"><span>出典：IPA（日程）、経済産業省・IPA（新試験・2026年3月31日）｜10月25日時点</span><span class="brand">採用のウラ側</span></div>
+</div></body></html>
